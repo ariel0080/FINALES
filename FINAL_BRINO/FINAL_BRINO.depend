@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1532949963 source:c:\test\final_brino\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532949963 c:\test\final_brino\arraylist.h
+
+1532952457 source:c:\test\final_brino\funciones.c
+
+1532962931 source:c:\test\final_brino\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eLetra.h"
+	"parce.h"
+
+1532959809 c:\test\final_brino\eletra.h
+	"ArrayList.h"
+
+1532962028 source:c:\test\final_brino\eletra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eLetra.h"
+
+1532961893 source:c:\test\final_brino\parce.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eLetra.h"
+	"parce.h"
+
+1532957729 c:\test\final_brino\parce.h
+

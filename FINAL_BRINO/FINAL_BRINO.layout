@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="eLetra.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="753" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="funciones.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="119" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="eLetra.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2435" topLine="58" />
+		</Cursor>
+		<Folding>
+			<Collapse line="26" />
+			<Collapse line="37" />
+			<Collapse line="53" />
+			<Collapse line="58" />
+			<Collapse line="69" />
+			<Collapse line="74" />
+			<Collapse line="85" />
+			<Collapse line="90" />
+		</Folding>
+	</File>
+	<File name="parce.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2052" topLine="6" />
+		</Cursor>
+		<Folding>
+			<Collapse line="10" />
+		</Folding>
+	</File>
+	<File name="funciones.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="19" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="parce.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="146" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2624" topLine="92" />
+		</Cursor>
+	</File>
+	<File name="ArrayList.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14193" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="ArrayList.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="476" topLine="132" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
