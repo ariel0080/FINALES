@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1532918688 source:c:\users\dell-e5430\desktop\1er_final_tm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+
+1532911154 source:c:\users\dell-e5430\desktop\1er_final_tm\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532911164 c:\users\dell-e5430\desktop\1er_final_tm\arraylist.h
+
+1532916736 source:c:\users\dell-e5430\desktop\1er_final_tm\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"eEntrega.h"
+
+1532912566 c:\users\dell-e5430\desktop\1er_final_tm\funciones.h
+
+1532916814 source:c:\users\dell-e5430\desktop\1er_final_tm\eentrega.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"eEntrega.h"
+
+1532918688 c:\users\dell-e5430\desktop\1er_final_tm\eentrega.h
+	"Arraylist.h"
+
+1532917701 source:c:\users\dell-e5430\desktop\1er_final_tm\parcer.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eEntrega.h"
+

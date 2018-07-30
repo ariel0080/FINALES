@@ -1,0 +1,38 @@
+CUANDO EL DATO ES STRING
+
+int set_Producto_descripcion(eProducto* p,char* nd)
+{
+    int retorno = -1;
+    if (p!=NULL)
+    {
+        strcpy(p->descripcion,nd);
+        retorno=1;
+    }
+    return retorno;
+}
+
+
+int get_Producto_descripcion(eProducto* p,char* descrip)
+{
+    strcpy(descrip,p->descripcion);
+    return 1;
+}
+
+
+CUANDO EL DATO ES INT O FLOAT
+
+int set_producto_cantidad(eProducto* p,int c)
+{
+    int retorno = -1;
+     if (p!=NULL)
+    {
+        p->cantidad = c;
+        retorno=1;
+    }
+    return retorno;
+}
+
+int get_Producto_cantidad(eProducto* p)
+{
+    return p->cantidad;
+}
