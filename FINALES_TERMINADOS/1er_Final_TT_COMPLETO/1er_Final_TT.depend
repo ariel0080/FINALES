@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1532350691 source:c:\users\dell-e5430\desktop\1er_final_tt\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532350691 c:\users\dell-e5430\desktop\1er_final_tt\arraylist.h
+
+1532903512 source:c:\users\dell-e5430\desktop\1er_final_tt\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+
+1532903444 c:\users\dell-e5430\desktop\1er_final_tt\producto.h
+	"ArrayList.h"
+
+1532885264 source:c:\users\dell-e5430\desktop\1er_final_tt\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"producto.h"
+	"funciones.h"
+
+1532884633 c:\users\dell-e5430\desktop\1er_final_tt\funciones.h
+
+1532910485 source:c:\users\dell-e5430\desktop\1er_final_tt\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"producto.h"
+	"funciones.h"
+
+1532892039 source:c:\users\dell-e5430\desktop\1er_final_tt\parce.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"producto.h"
+
+1532350691 source:c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532350691 c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\arraylist.h
+
+1532885264 source:c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"producto.h"
+	"funciones.h"
+
+1532903444 c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\producto.h
+	"ArrayList.h"
+
+1532884633 c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\funciones.h
+
+1532910798 source:c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"producto.h"
+	"funciones.h"
+
+1532892039 source:c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\parce.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"producto.h"
+
+1532903512 source:c:\users\dell-e5430\dropbox\facultad - estudio\inicio tecnicatura superior en programación\laboratoio de programacion 1\prog_y_lab_i\1er_final_tt_completo\producto.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"producto.h"
+

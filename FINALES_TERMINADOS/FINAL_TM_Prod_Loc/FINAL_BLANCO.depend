@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1532950232 source:c:\users\dell-e5430\desktop\final_blanco\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532950232 c:\users\dell-e5430\desktop\final_blanco\arraylist.h
+
+1533003519 source:c:\users\dell-e5430\desktop\final_blanco\funciones.c
+
+1533098016 source:c:\users\dell-e5430\desktop\final_tm\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+	"eProducto.h"
+
+1533097334 c:\users\dell-e5430\desktop\final_tm\arraylist.h
+
+1533003519 source:c:\users\dell-e5430\desktop\final_tm\funciones.c
+
+1533096935 source:c:\users\dell-e5430\desktop\final_tm\eproducto.c
+	"eProducto.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1533096997 c:\users\dell-e5430\desktop\final_tm\eproducto.h
+	"ArrayList.h"
+
+1533091725 source:c:\users\dell-e5430\desktop\final_tm\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eProducto.h"
+	"parse.h"
+
+1533097564 source:c:\users\dell-e5430\desktop\final_tm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eProducto.h"
+
+1533003519 c:\users\dell-e5430\desktop\final_tm\funciones.h
+
+1533091145 c:\users\dell-e5430\desktop\final_tm\parse.h
+
+1533003519 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\funciones.c
+
+1533091725 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eProducto.h"
+	"parse.h"
+
+1533160485 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\arraylist.h
+
+1533159581 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\eproducto.h
+	"ArrayList.h"
+
+1533091145 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\parse.h
+
+1533161804 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eProducto.h"
+
+1533003519 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\funciones.h
+
+1533160694 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533160776 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3) editar al_filter\eproducto.c
+	"eProducto.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1533160694 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533160485 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\arraylist.h
+
+1533161836 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\eproducto.c
+	"eProducto.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1533159581 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\eproducto.h
+	"ArrayList.h"
+
+1533003519 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\funciones.c
+
+1533161804 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eProducto.h"
+
+1533003519 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\funciones.h
+
+1533091145 c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\parse.h
+
+1533091725 source:c:\users\abrinoli_mecon\dropbox\final_tm_haciend(punto 3)\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eProducto.h"
+	"parse.h"
+
+1533179706 source:c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533179706 c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\arraylist.h
+
+1533179624 source:c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\eproducto.c
+	"eProducto.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533179503 c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\eproducto.h
+	"ArrayList.h"
+
+1533179544 source:c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1533180955 source:c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eProducto.h"
+
+1533179503 c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\funciones.h
+
+1533091145 c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\parse.h
+
+1533091725 source:c:\users\dell-e5430\dropbox\final_tm_haciend(punto 3)\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eProducto.h"
+	"parse.h"
+

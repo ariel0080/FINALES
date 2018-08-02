@@ -1,0 +1,236 @@
+CONSTRUCTORES
+
+CONSTRUCTOR DE ELEMENTO STRCUT ELETRA
+
+eLetra* neweLetra(void)
+{
+    eLetra* returnAux = NULL;
+    eLetra* pLetra = malloc(sizeof(eLetra));
+    returnAux = pLetra;
+    return returnAux;
+
+}
+
+=================================================
+FUNCION PARA LISTAR A PARTIR DEL ARRAYLIST
+
+
+ void listar(ArrayList* lista)
+{
+    printf("\n%-5s %-10s %-10s %-10s \n\n","LETRA","NOMBRE","VOCAL","CONSONANTE","RECIBE"); // FORMATEO DE PARCE
+    eLetra* aux;  // DECLARACION DE ELEMENTO
+    for (int i=0; i<al_len(lista); i++ )
+                {
+                aux=(eLetra*)al_get(lista,i); // DESDE ACA TRABJO CON AUX
+
+                int v;
+                int c;
+                char letra;
+                char nombre[30];
+
+                letra = get_eLetra_letra(aux); //CHAR
+                get_eLetra_nombre(aux,nombre); //STRING LO ASIGNA  ANOMBRE
+                v=get_eLetra_vocal(aux); //ENTEROS
+                c=get_eLetra_consonante(aux); /ENTEROS
+
+                printf("\n%-5c %-10s %-10d %-10d \n\n",letra,nombre,v,c);
+
+                }
+}
+
+=========================================================
+
+EJEMPLO DE PARCE!
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "ArrayList.h"
+#include "eLetra.h"
+#include "parce.h"
+
+
+int parser_eLetra(FILE* pFile, ArrayList* listaLetras, char* nomArch)
+
+{
+    eLetra *auxLetra; //DECLARO EL TIPO DE ELEMENTO QUE VA A LEER DESDE EL ARCHIVO
+
+// RECORDAR QUE TODAS LAS VARIABLES QUE LEE DEL ARCHIVO SON CHAR SIN IMPORTAR QUE DATO SEA
+
+    char letra[2];
+    char nombre[30];
+    char vocal[2];
+    char consonante[2];
+    int ivocal;
+    int iconsonante;
+
+
+    pFile=fopen(nomArch,"r");
+
+    if(pFile== NULL)
+    {
+        return 1;
+    }
+    else
+    {
+            fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n", letra,nombre,vocal,consonante); //DESCARTO PRIMERA FILA DEL ARCHIVO POR CONTENER NOMBRES DE COLUMNAS
+            while(!(feof(pFile)))
+                {
+
+                fscanf(pFile,"%[^,],%[^,],%[^,],%[^\n]\n", letra,nombre,vocal,consonante);
+
+                ivocal=atoi(vocal);
+                iconsonante=atoi(consonante);
+
+
+                auxLetra = neweLetra(); //RECIEN ACA SE ASIGNA MEMORIA PARA EL ELEMENTO
+                    if(auxLetra!=NULL)
+                        {
+
+                        set_eLetra_nombre(auxLetra,nombre);
+                        set_eLetra_vocal(auxLetra,ivocal);
+                        set_eLetra_consonante(auxLetra,iconsonante);
+                        set_eLetra_letra(auxLetra,letra[0]); // ASI SE SETEAN LOS CHARS
+                        al_add(listaLetras,auxLetra);
+
+                        }
+                }
+
+        }
+    fclose(pFile);
+
+    printf("\nCANTIDAD DE REGISTROS PROCESADOS: #%d\n", al_len(listaLetras));
+
+    return 0;
+}
+
+===================================================================================
+funcion consulta
+
+int consulta(char* dato, int caracteres)
+{
+    if(dato!=NULL)
+    {
+        fflush(stdin);
+        fgets(dato,caracteres,stdin);
+    int largo=0;
+    while (*(dato+largo)!='\n')
+        {
+        largo++;
+        }
+    *(dato+largo)='\0';
+    return 0;
+    }
+    else return -1;
+}
+========================================================================================
+
+EJEMPLO DE ENCONTRAR UN ELEMENTO DENTRO DE UN ARRAY
+
+int encontrar_Producto(ArrayList* l,int producto) //devuelva el indice donde esta el producto o -1 si no lo encuentra
+{
+    int retorno = -1;
+    eProducto* auxp=neweProducto();
+    int prod;
+    for(int i=0;i<al_len(l);i++)
+    {
+        auxp=al_get(l,i);
+        prod= get_Producto_producto(auxp);
+        if(prod==producto)
+        {
+            retorno = i;
+            break;
+        }
+    }
+    return retorno;
+}
+
+==========================================================================================
+
+EJEMPLO DE GUARDAR EN ARCHIVO, OJO MODIFICAR QUE SE PUEDA SETEAR EL NOMBRE
+
+void guardarArchivo_20(ArrayList* empleados)
+
+{
+    FILE* miArchivo;
+    miArchivo = fopen("sueldos20.csv","w");
+    char n[50];
+    char d[50];
+
+    fprintf(miArchivo,"NOMBRE,DIRECCION,ID,HORAS,SUELDO\n");
+    for(int i=0;i<al_len(empleados);i++)
+    {
+        eEmpleado* tmp=al_get(empleados,i);
+        get_Empleado_nombre(tmp,n);
+        get_Empleado_direccion(tmp,d);
+
+        fprintf(miArchivo,"%s,%s,%d,%d,%.2f\n",n,d,get_Empleado_id(tmp),get_Empleado_hora(tmp),get_Empleado_sueldo(tmp)); // aca cambiaste f por d
+    }
+
+    fclose(miArchivo);
+}
+===========================================================================================
+
+BUSCAR UN MAXIMO DE UN DATO DENTRO DE UN ARRAY LIST, DEVUELVE LA POSICION
+
+int buscarMaxId(ArrayList* empleados)
+
+{
+    eEmpleado* aux;
+    int id;
+    int maxId=-1;
+    if (al_len(empleados)!=0)
+        {
+        for (int i=0; i<al_len(empleados); i++ )
+                {
+                    aux=(eEmpleado*)al_get(empleados,i);
+                    id=get_Empleado_id(aux);
+                    if(id>maxId){maxId=id;}
+                }
+        maxId++;
+        }
+
+return maxId;
+}
+==========================================================================================
+FUNCIONES COMPARE PARA USAR CON SORT DENTRO DEL ARRAY (VAN DENTRO DE LA ESTRUCTURA DEL TIPO DE DATO QUE MANEJA EL ARRAY LIST)
+EJEMPLO DE USO: fsort=al_sort(lEmpleados_copia,compareeEmpleado,1);
+
+
+int compareeEmpleado(void* pEmployeeA,void* pEmployeeB)
+{
+    eEmpleado* tmp1=(eEmpleado*)pEmployeeA ;
+    eEmpleado* tmp2=(eEmpleado*)pEmployeeB ;
+
+    if(strcmp((tmp1)->nombre,(tmp2)->nombre)> 0)
+    {
+        return 1;
+    }
+    if(strcmp((tmp1)->nombre,(tmp2)->nombre)< 0)
+    {
+        return 0;
+    }
+    return 0;
+
+
+}
+
+int compareeEmpleado_sueldo(void* pEmployeeA,void* pEmployeeB)
+{
+    eEmpleado* tmp1=(eEmpleado*)pEmployeeA ;
+    eEmpleado* tmp2=(eEmpleado*)pEmployeeB ;
+
+    if((tmp1->sueldo)>(tmp2->sueldo))
+    {
+        return 1;
+    }
+    if((tmp1->sueldo)<(tmp2->sueldo))
+    {
+        return 0;
+    }
+    return 0;
+
+
+}
+=================================================================
+
+FALTARIAN VALIDADORES DE TODO TIPO DE DATOS

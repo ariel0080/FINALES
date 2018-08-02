@@ -1,0 +1,129 @@
+# depslib dependency file v1.0
+1532950232 source:c:\users\dell-e5430\desktop\final_blanco\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532950232 c:\users\dell-e5430\desktop\final_blanco\arraylist.h
+
+1533003519 source:c:\users\dell-e5430\desktop\final_blanco\funciones.c
+
+1532950232 source:c:\users\abrinoli_mecon\desktop\final_blanco\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533053464 c:\users\abrinoli_mecon\desktop\final_blanco\arraylist.h
+
+1533003519 source:c:\users\abrinoli_mecon\desktop\final_blanco\funciones.c
+
+1533080509 source:c:\users\abrinoli_mecon\desktop\final_blanco\eletra.c
+	"eLetra.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1533076542 c:\users\abrinoli_mecon\desktop\final_blanco\eletra.h
+	"ArrayList.h"
+
+1533053688 source:c:\users\abrinoli_mecon\desktop\final_blanco\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eLetra.h"
+	"parce.h"
+
+1533053385 c:\users\abrinoli_mecon\desktop\final_blanco\parce.h
+
+1533078245 source:c:\users\abrinoli_mecon\desktop\final_blanco\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eLetra.h"
+
+1533003519 c:\users\abrinoli_mecon\desktop\final_blanco\funciones.h
+
+1533053672 c:\users\abrinoli_mecon\desktop\final_blanco\parse.h
+
+1532950232 source:c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533053464 c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\arraylist.h
+
+1533003519 source:c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\funciones.c
+
+1533078245 source:c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eLetra.h"
+
+1533003519 c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\funciones.h
+
+1533053672 c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\parse.h
+
+1533076542 c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\eletra.h
+	"ArrayList.h"
+
+1533053688 source:c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eLetra.h"
+	"parce.h"
+
+1533053385 c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\parce.h
+
+1533081120 source:c:\users\abrinoli_mecon\desktop\final_blanco_haciendo\eletra.c
+	"eLetra.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1533220690 source:c:\users\dell-e5430\desktop\final_letras_comprobar\eletra.c
+	"eLetra.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+
+1533220690 c:\users\dell-e5430\desktop\final_letras_comprobar\eletra.h
+	"ArrayList.h"
+
+1533179706 c:\users\dell-e5430\desktop\final_letras_comprobar\arraylist.h
+
+1533003519 source:c:\users\dell-e5430\desktop\final_letras_comprobar\funciones.c
+
+1533221559 source:c:\users\dell-e5430\desktop\final_letras_comprobar\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+	"parse.h"
+	"eLetra.h"
+
+1533003519 c:\users\dell-e5430\desktop\final_letras_comprobar\funciones.h
+
+1533053672 c:\users\dell-e5430\desktop\final_letras_comprobar\parse.h
+
+1533216220 source:c:\users\dell-e5430\desktop\final_letras_comprobar\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"eLetra.h"
+	"parse.h"
+
+1533221694 source:c:\users\dell-e5430\desktop\final_letras_comprobar\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+

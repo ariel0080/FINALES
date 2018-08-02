@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1532950232 source:c:\users\dell-e5430\desktop\final_blanco\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532950232 c:\users\dell-e5430\desktop\final_blanco\arraylist.h
+
+1533003519 source:c:\users\dell-e5430\desktop\final_blanco\funciones.c
+

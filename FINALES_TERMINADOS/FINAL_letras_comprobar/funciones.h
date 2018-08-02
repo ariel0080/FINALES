@@ -1,0 +1,2 @@
+
+void LP (void); // LIMPIA CONTENIDO DE PANTALLA
