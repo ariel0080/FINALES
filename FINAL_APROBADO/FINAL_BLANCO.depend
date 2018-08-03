@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1532950232 source:c:\users\dell-e5430\desktop\final_blanco\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1532950232 c:\users\dell-e5430\desktop\final_blanco\arraylist.h
+
+1533003519 source:c:\users\dell-e5430\desktop\final_blanco\funciones.c
+
+1533245593 source:c:\users\alumno\desktop\final\arraylist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayList.h"
+
+1533245593 c:\users\alumno\desktop\final\arraylist.h
+
+1533245593 source:c:\users\alumno\desktop\final\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"funciones.h"
+
+1533245593 c:\users\alumno\desktop\final\funciones.h
+
+1533254534 source:c:\users\alumno\desktop\final\eproducto.c
+	"eProducto.h"
+	"ArrayList.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1533250130 c:\users\alumno\desktop\final\eproducto.h
+	"ArrayList.h"
+
+1533253776 source:c:\users\alumno\desktop\final\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Arraylist.h"
+	"eProducto.h"
+	"parse.h"
+
+1533247357 c:\users\alumno\desktop\final\parse.h
+
+1533250130 source:c:\users\alumno\desktop\final\parse.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayList.h"
+	"parse.h"
+	"eProducto.h"
+
